@@ -122,8 +122,8 @@ nav, .search_wrap, .news_wrap img {display: none}
   .main_visual .visual_txt p:nth-child(1) {font-size: 30px;margin-bottom: 30px;line-height: 36px;}
   .main_visual .visual_txt p:nth-child(2) {font-size: 14px;line-height: 18px;}
 
-  .quick_wrap a {height: 105px;padding: 18px 0;font-size: 12px;}
-  .quick_wrap a:before {width: 45px;height: 45px;margin-bottom: 6px;background-size:150px 225px;}
+  .quick_wrap a {height: 100px;padding: 17px 0;font-size: 12px;}
+  .quick_wrap a:before {width: 45px;height: 45px;margin-bottom: 3px;background-size:150px 225px;}
   .quick_wrap li:nth-child(2) a:before {background-position: 0 -60px;transform:translateX(4px)}
   .quick_wrap li:nth-child(3) a:before {background-position: 0 -120px;}
   .quick_wrap li:nth-child(4) a:before {background-position: 0 -180px;}
