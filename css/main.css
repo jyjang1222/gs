@@ -113,9 +113,9 @@ nav, .search_wrap, .news_wrap img {display: none}
   #header .mo_gnb_btn span {display: block;width: 24px;height: 3px;margin-bottom: 5px;}
   #header .search_btn {width: 18px;height: 18px;margin-right: 33px;background-position: -120px -104px;background-size:150px 225px}
 
-  .main_visual {height: 80vh;background-position: top -200px left -440px;}
+  .main_visual {height: 415px;background-position: top -200px left -440px;}
   .main_visual video {left: -440px;}
-  .main_visual .visual_txt {top:150px}
+  .main_visual .visual_txt {top:100px}
   .main_visual .visual_txt p:nth-child(1) {font-size: 30px;margin-bottom: 30px;line-height: 36px;}
   .main_visual .visual_txt p:nth-child(2) {font-size: 14px;line-height: 18px;}
 
