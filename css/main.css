@@ -55,12 +55,11 @@ section {padding-top: 64px;}
 .business_wrap h2, .management_wrap h2 {margin-bottom: 8px;font-size: 40px;font-weight: bold;}
 .business_wrap h2 span, .management_wrap h2 span {display: block;margin-bottom: 1px;font-size: 16px;font-weight: bold;color: #099;}
 .business_wrap h2+p, .management_wrap h2+p {margin-bottom: 30px;font-size: 20px;white-space: nowrap;}
-.business_wrap .business .busi_title {color: #FFF;}
-.business_wrap h3 {font-weight: bold;}
+.business_wrap h3 {font-weight: bold;color: #FFF}
 
-.business_wrap .business>li:nth-child(1) .busi_title {background:#f36422}
-.business_wrap .business>li:nth-child(2) .busi_title {background:#0072bc}
-.business_wrap .business>li:nth-child(3) .busi_title {background:#85c440}
+.business_wrap .business>li:nth-child(1) h3 {background:#f36422}
+.business_wrap .business>li:nth-child(2) h3 {background:#0072bc}
+.business_wrap .business>li:nth-child(3) h3 {background:#85c440}
 .business_wrap .busi_img {padding-top: 67.28395061%;background-size: cover;background-repeat: no-repeat}
 .business_wrap .business>li:nth-child(1) .busi_img {background-image:url(../img/gs_global.jpg)}
 .business_wrap .business>li:nth-child(2) .busi_img {background-image:url(../img/gs_caltex.jpg)}
@@ -90,11 +89,16 @@ section {padding-top: 64px;}
 
   .main_visual {background-position: top -200px left}
   .main_visual video {top:-8%}
-  .quick_wrap li:hover a {background-color: #07a;}
+  .quick_wrap li:hover a {background-color: #07a}
 
-  .business_wrap .mo_blind, .business_wrap h3 span {display: block;}
-  .business_wrap .business>li {float: left;width: 372px;margin-right: 40px;}
-  .business_wrap .business>li .busi_img {width: 100%;height: 250px;padding-top: 0;}
+  .business_wrap .mo_blind, .business_wrap h3 span {display: block}
+  .business_wrap .business>li {float: left;width: 372px;margin-right: 40px}
+  .business_wrap .business>li .busi_img {width: 100%;height: 250px;padding-top: 0}
+
+  .business_wrap .busi_title {}
+  .business_wrap h3 {position: relative;box-sizing:border-box;padding: 18px 0;font-size: 24px;}
+  .business_wrap h3:before {content:'';display: block;position: absolute;width: 60px;height: 60px;background-image:url(../img/sprite.png);background-position: -100px 0;}
+  .business_wrap h3 span {font-weight: 300;font-size: 20px;}
   
 
 }
