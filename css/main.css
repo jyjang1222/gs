@@ -99,7 +99,7 @@ nav, .search_wrap, .news_wrap img {display: none}
   #header .mo_gnb_btn span.mid {background: #0072bc}
   #header .mo_gnb_btn span.btm {margin-bottom: 0;background: #85c440}
 
-  .main_visual {height: 780px;background-position: top -200px left -202px;}
+  .main_visual {height: 782px;background-position: top -200px left -202px;}
   .main_visual video {left: -202px;min-width:1600px} /*-202*/ 
 }
 /* Mobile */
