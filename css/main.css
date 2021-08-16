@@ -115,6 +115,8 @@ nav, .search_wrap, .news_wrap img {display: none}
 
   .main_visual {background-position: top -200px left -440px;}
   .main_visual video {left: -440px;}
+  .main_visual .visual_txt p:nth-child(1) {font-size: 30px;}
+  .main_visual .visual_txt p:nth-child(2) {font-size: 14px;}
 
   .quick_wrap a {height: 210px;padding: 36px 0;font-size: 24px;}
   .quick_wrap a:before {width: 90px;height: 90px;margin-bottom: 12px;background-size:auto;}
