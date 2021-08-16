@@ -117,7 +117,7 @@ nav, .search_wrap, .news_wrap img {display: none}
   #header .search_btn {width: 18px;height: 18px;margin-right: 33px;background-position: -120px -105px;background-size:150px 225px}
 
   .main_visual {height: 500px;background-position: top -200px left -440px;}
-  .main_visual video {left: -330px;top:-100px;min-width: 1200px;}
+  .main_visual video {left: -300px;top:-80px;min-width: 1100px;}
   .main_visual .visual_txt {top:150px}
   .main_visual .visual_txt p:nth-child(1) {font-size: 30px;margin-bottom: 30px;line-height: 36px;}
   .main_visual .visual_txt p:nth-child(2) {font-size: 14px;line-height: 18px;}
