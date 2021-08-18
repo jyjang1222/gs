@@ -167,7 +167,7 @@ section {padding-top: 64px;}
   .business_wrap img {opacity: 0;}
   .business_wrap h2, .management_wrap h2 {font-size: 36px;}
   .business_wrap h2 span, .management_wrap h2 span {font-size: 14px;}
-  .business_wrap h2+p, .management_wrap h2+p {margin-bottom: 20px;font-size: 20px;}
+  .business_wrap h2+p, .management_wrap h2+p {margin-bottom: 20px;font-size: 18px;}
   .business_wrap .business>li {margin-bottom: 30px;}
   .business_wrap .busi_img {padding-top: 67.28395061%;}
   .business_wrap .busi_title {position: relative;left: 0;right: 0;padding-top: 20%;}
