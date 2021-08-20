@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
   <title>GS그룹</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/jquery.min.js"></script>
+  <script src="js/slick.js"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
@@ -96,8 +98,8 @@
     <main id="main">
       <div class="main_visual">
         <video src="media/gs_main_visual.mp4" muted autoplay loop playsinline></video>
-        <div class="container">
-          <div class="visual_txt">
+        <div class="visual_txt">
+          <div class="container">
             <p>고객만족을<br>최고로 하는 기업</p>
             <p>GS는 'Value No.1 GS' 를 위해<br>최선을 다하고 있습니다.</p>
           </div>
@@ -158,49 +160,47 @@
           </ul>
         </div><!-- //container -->
       </section><!-- //business_wrap -->
-      <section class="management_wrap">
+      <section class="manage_wrap">
         <div class="container">
           <h2><span>Grow with uS, GS</span>지속가능경영</h2>
           <p>GS는 고객과 함께 내일을 <br class="mo_br">꿈꾸며 새로운 삶의 가치를 창조합니다.</p>
           <div class="manage_slider">
-            <div class="slide1">
-              <div class="mng_slide_inner">
-                <div><img src="img/transparent.png" alt="고객성장"></div>
+            <div class="slide slide1">
+              <a class="mng_slide_inner" href="#">
+                <div class="mng_img"><img src="img/transparent.png" alt="고객성장"></div>
                 <h3>고객성장</h3>
                 <p class="pc_gs">고객만족을 최고의 사명으로 하는 생활 속의 파트너가 되기 위해 최선을 다하겠습니다.</p>
-                <a href="#">자세히보기</a>
-              </div>
+              </a>
             </div>
-            <div class="slide2">
-              <h3>윤리경영</h3>
-              <p class="pc_gs">기업의 사회적 역할과 책임을 성실히 수행해 나가는 건전한 기업시민이 되겠습니다.</p>
-              <a href="#">자세히보기</a>
+            <div class="slide slide2">
+              <a class="mng_slide_inner" href="#">
+                <div class="mng_img"><img src="img/transparent.png" alt="윤리경영"></div>
+                <h3>윤리경영</h3>
+                <p class="pc_gs">기업의 사회적 역할과 책임을 성실히 수행해 나가는 건전한 기업시민이 되겠습니다.</p>
+              </a>
             </div>
-            <div class="slide3">
-              <h3>동반성장</h3>
-              <p class="pc_gs">협력사와 지속가능한 성장을 추진하고 파트너로서 존중하는 상생경영을 추구하겠습니다.</p>
-              <a href="#">자세히보기</a>
+            <div class="slide slide3">
+              <a class="mng_slide_inner" href="#">
+                <div class="mng_img"><img src="img/transparent.png" alt="동반성장"></div>
+                <h3>동반성장</h3>
+                <p class="pc_gs">협력사와 지속가능한 성장을 추진하고 파트너로서 존중하는 상생경영을 추구하겠습니다.</p>
+              </a>
             </div>
-            <div class="slide4">
-              <h3>사회공헌</h3>
-              <p class="pc_gs">기업의 성과를 사회와 함께 나누어 지역사회 발전을 이루기 위해 노력하고 있습니다.</p>
-              <a href="#">자세히보기</a>
+            <div class="slide slide4">
+              <a class="mng_slide_inner" href="#">
+                <div class="mng_img"><img src="img/transparent.png" alt="사회공헌"></div>
+                <h3>사회공헌</h3>
+                <p class="pc_gs">기업의 성과를 사회와 함께 나누어 지역사회 발전을 이루기 위해 노력하고 있습니다.</p>
+              </a>
             </div>
-            <div class="slide5">
-              <h3>환경경영</h3>
-              <p class="pc_gs">기후변화 대응체제 구축을 통해 안전하고 환경친화적인 기업 경영을 하고 있습니다.</p>
-              <a href="#">자세히보기</a>
+            <div class="slide slide5">
+              <a class="mng_slide_inner" href="#">
+                <div class="mng_img"><img src="img/transparent.png" alt="환경경영"></div>
+                <h3>환경경영</h3>
+                <p class="pc_gs">기후변화 대응체제 구축을 통해 안전하고 환경친화적인 기업 경영을 하고 있습니다.</p>
+              </a>
             </div>
-          </div><!-- manage_slider -->
-          <ul class="paging">
-            <li><span class="blind">1</span></li>
-            <li><span class="blind">2</span></li>
-            <li><span class="blind">3</span></li>
-          </ul>
-          <div class="btns">
-            <button><span class="blind">이전보기</span></button>
-            <button><span class="blind">다음보기</span></button>
-          </div>
+          </div><!-- //manage_slider -->
         </div><!-- //container -->
       </section><!-- //management_wrap -->
       <section class="recruit_wrap">
@@ -235,7 +235,7 @@
                 <p>㈜GS(대표이사 홍순기 사장, 사진)가 친환경 바이오 스타트업과 함께 미래 성장의 기반을 마련한다.</p>
                 <p>GS는 8일 서울 강남구 논현로 GS타워에서 ‘더 지에스 챌린지’(The GS Challenge)에 선발된 바이오테크(BT) 스타트업 6개사와 함께 프로그램의 시작을 알리는 ‘스타트업 캠프(Start-up Camp)’를 열었다.</p>
                 <span>자세히보기</span>
-                <img src="img/gs_news_01.png" alt="">
+                <img src="img/news_01.png" alt="">
               </a>
             </div>
             <div class="news_content">
