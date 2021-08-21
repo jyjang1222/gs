@@ -8,13 +8,14 @@ $(function() {
     responsive : [{
       breakpoint : 1196,
       settings : {
-        slidesToShow : 3,
+        slidesToShow : 2,
+        arrows : false
       }
     }, {
       breakpoint : 720,
       settings : {
         slidesToShow : 1,
-        slidesToScroll : 1,
+        arrows : false
       }
     }]
   })
