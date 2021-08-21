@@ -137,7 +137,7 @@ i {display: none;}
   .business_wrap .business p {box-sizing:border-box;text-align: left;padding: 0 10px;}
 
   .manage_wrap {padding-bottom: 70px;}
-  .manage_wrap .mng_title {position: absolute;left: 0;right: 0;bottom: 34px;box-sizing:border-box;text-align: center;transition:all 0.4s}
+  .manage_wrap .mng_title {position: absolute;left: 0;right: 0;top:auto;bottom: 34px;box-sizing:border-box;text-align: center;transition:all 0.4s}
   .manage_wrap .mng_title h3 {margin-bottom: 26px;line-height: 30px;}
   .manage_wrap .mng_title p {line-height: 16px;}
   .manage_wrap .mng_img {display: block;width: 100%;height: 230px;padding: 0;transform:scale(1);transition:all 0.3s}
