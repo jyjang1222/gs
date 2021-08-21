@@ -203,7 +203,7 @@ i {display: none;}
   #header h1 a {display: block;width: 100px;height: 52px}
   #header h1 img {width: 56px;height: 30px}
   #header .util {margin-top: 14px;}
-  #header .search_btn {width: 18px;height: 18px;margin-right: 33px;background-position: -120px -105px;background-size:150px 225px}
+  #header .search_btn {width: 18px;height: 18px;margin-right: 33px;background-position: -120px -105px;background-size:150px 300px}
   #header .pc_lang_area {display: none;}
   #header .mo_gnb_btn span {display: block;width: 24px;height: 3px;margin-bottom: 5px;}
   #header .mo_gnb_btn span.top {background: #f36422}
