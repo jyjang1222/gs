@@ -71,7 +71,7 @@ i {display: none;}
 
 .manage_wrap .slide {position: relative;padding-top: 100%;}
 .manage_wrap a {position: absolute;left: 0;right: 0;top: 0;bottom: 0;border: 1px solid #099;}
-.manage_wrap .mng_title {position: absolute;left: 0;right: 0;bottom: 30%;text-align: center;white-space: nowrap;}
+.manage_wrap .mng_title {position: absolute;left: 0;right: 0;top: 50%;text-align: center;white-space: nowrap;}
 .manage_wrap .mng_title h3 {margin-bottom: 26px;font-size: 30px;line-height: 30px;}
 .manage_wrap .mng_title p {line-height: 16px;}
 
