@@ -108,6 +108,35 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
 .recruit .recruit_area h3 span {position: absolute;left: 50%;top: 50%;transform:translate(-50%, -50%);white-space: nowrap;font-size: 20px;line-height: 20px;}
 .recruit .recruit_area ul {display: flex;flex-flow:row wrap;align-content: space-around;position: absolute;top: 14%;bottom: 14%;left: 0;right: 0;}
 .recruit .recruit_area ul li {display: flex;width: 33.33%;justify-content:center;align-items:center;font-size: 18px;}
+.recruit .recruit_area ul li a {line-height: 18px;}
+
+.news_wrap {padding: 60px 0 100px;}
+.news_wrap h2 {margin-bottom: 18px;font-size: 24px;font-weight: bold;}
+.news_wrap .container {position: relative;}
+.news_wrap .news_btn {position: absolute;top: 31px;right: 0;width: 18px;height: 18px;transition:all 0.5s}
+.news_wrap .news_btn:before {content:'';display: block;position: absolute;left: 0;top: 8px;width: 18px;height: 2px;background: #000;}
+.news_wrap .news_btn:after {content:'';display: block;position: absolute;left: 8px;top: 0;width: 2px;height: 18px;background: #000;}
+.news_wrap li:first-child {border-top: 1px solid #ccc;}
+.news_wrap li {overflow: hidden;border-bottom: 1px solid #ccc;}
+.news_wrap li .news_txt strong~* {display: none;}
+.news_wrap li span {display: block;}
+.news_wrap li a {display: flex;padding: 20px 0;}
+.news_wrap .news_date>* {display: block;color:#AAA}
+.news_wrap .news_date {padding: 0 12px;}
+.news_wrap .news_date b {margin-bottom: 11px;font-size: 24px;line-height: 24px;}
+.news_wrap .news_date i {font-size: 16px;text-align: center;}
+.news_wrap .news_txt {display: flex;align-items:center;padding-left: 12px;}
+.news_wrap .news_txt strong {font-size: 18px;font-weight: bold;}
+
+#footer {padding: 12px 0 20px;border-top: 1px solid #dedede;font-size: 14px;}
+#footer .footer_logo {display: none;}
+#footer .fam_site {display: none;}
+#footer .footer_content ul {display: flex;justify-content: space-between;margin-bottom: 14px;}
+#footer .footer_content ul~* {font-style:normal;line-height: 20px;color: #818285;}
+#footer .footer_content p {margin-bottom: 14px;}
+#footer .fam_site_area {position: relative;border: 1px solid #e7e7e7;color: #818285;text-indent: 8px;cursor: pointer;}
+#footer .fam_site_area span {line-height: 31px;}
+#footer .fam_site_area .fam_icon {position: absolute;right: 11px;top: 11px;display: block;width: 9px;height: 7px;background-image: url(../img/sprite.png);background-position: -240px -37px;}
 
 /* PC */
 @media all and (min-width:1197px) {
@@ -183,8 +212,11 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
   .recruit .recruit_area h3 span {font-size: 20px;line-height: 44px;}
   .recruit .recruit_area ul {display: flex;flex-flow:row wrap;align-content: space-between;height: 100%;}
   .recruit .recruit_area ul li {display: flex;width: 25%;justify-content:center;font-size: 18px;}
+  .recruit .recruit_area ul li a {position: relative;}
+  .recruit .recruit_area ul li a:hover {color: #099;}
+  .recruit .recruit_area ul li a:hover:after {content:'';display: block;position: absolute;top: 4px;right:-25px;width: 19px;height: 10px;background-image: url(../img/sprite.png);background-position: -240px -16px;}
   
-  
+  .news_wrap {padding: 60px 0 140px;}
   .news_wrap .container {position: relative;}
   .news_wrap h2 {margin-bottom: 26px;font-size: 30px;font-weight: bold;}
   .news_wrap .news_btn {position: absolute;top: 33px;right: 0;width: 24px;height: 24px;transition:all 0.5s}
@@ -194,22 +226,36 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
   .news_wrap .news_btn:hover:before {background: #099;}
   .news_wrap .news_btn:hover:after {background: #099;}
 
+  .news_wrap li .news_txt strong~* {display: block;}
   .news_wrap li:first-child {border-top: 1px solid #ccc;}
   .news_wrap li {overflow: hidden;border-bottom: 1px solid #ccc;}
-  .news_wrap li:first-child .news_img {width: 274px;height: 167px;background-image: url(../img/news_01.png);background-size: cover;}
-  .news_wrap li:nth-child(n+2) .news_txt strong~* {display: none;}
-  .news_wrap li:nth-child(n+2) .news_txt strong {margin-bottom: 0;line-height: 53px;}
+  .news_wrap li:first-child .news_img {width: 200px;background-image: url(../img/news_01.png);background-size: cover;background-position: center top;}
 
-  .news_wrap li span {display: block;float: left;}
-  .news_wrap .news_content {padding: 32px 0;}
+  .news_wrap li a:not(.news_on) .news_txt strong~* {display: none;}
+  .news_wrap li a:not(.news_on) .news_txt strong {margin-bottom: 0;}
+  .news_wrap li a:not(.news_on) .news_txt {justify-content: center;}
+
+  .news_wrap li span {display: block;}
+  .news_wrap li a {position: relative;padding: 32px 0;}
   .news_wrap .news_date {padding: 0 26px;}
   .news_wrap .news_date b {display: block;margin-bottom: 11px;font-size: 30px;line-height: 24px;}
   .news_wrap .news_date i {display: block;font-size: 16px;text-align: center;}
-  .news_wrap .news_txt {width: 430px;margin-right: 100px;padding-left: 27px;}
-  .news_wrap .news_txt>* {margin-bottom: 17px;}
+  .news_wrap .news_txt {flex-flow:column nowrap;align-items:stretch;overflow: hidden;width: 430px;margin-right: 100px;padding-left: 27px;}
+  .news_wrap .news_txt>*:not(b) {margin-bottom: 17px;}
   .news_wrap .news_txt strong {display: block;font-size: 20px;font-weight: bold;line-height: 20px;}
-  .news_wrap .news_txt p:nth-of-type(2) {overflow: hidden;white-space: nowrap;text-overflow:ellipsis}
-  
+  .news_wrap .news_txt b {color: #099;}
+
+  .news_wrap .news_chevron {display: block;position: absolute;right: 26px;top: 50%;transform:translateY(-50%);width: 24px;height: 13px;background-image: url(../img/sprite.png);background-position: -200px -192px;}
+  .news_wrap .news_on .news_chevron {top: 32px;transform: none;background-position: -200px -216px;}
+  .news_wrap .news_on .news_date>* {color: #099;}
+
+  #footer {padding: 19px 0 21px;font-size: 16px;}
+  #footer .footer_logo {display: block;float: left;width: 80px;height: 42px;margin-right: 46px;}
+  #footer .footer_content {float: left;width: 400px;margin-top: 9px;}
+  #footer .footer_content ul {margin-bottom: 26px;}
+  #footer .footer_content ul~* {font-size: 14px;}
+  #footer .fam_site_area {float: right;width: 148px;margin-top: 4px;}
+  #footer .fam_site_area span {float: right;width: 148px;line-height: 31px;font-size: 14px;}  
 }
 /* Tablet */
 @media all and (min-width:721px) and (max-width:1196px) {
@@ -245,6 +291,19 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
   .recruit .recruit_area {padding-top: 33.3%;}
   .recruit .recruit_area h3 {width: 25%;padding-top: 7%;}
   .recruit p .mo_br {display: inline;}
+
+  .news_wrap h2 {font-size: 30px;}
+  .news_wrap li a {padding: 30px 0;}
+  .news_wrap .news_date {padding: 0 20px;}
+  .news_wrap .news_date b {font-size: 30px;}
+  .news_wrap .news_date i {font-size: 18px;}
+  .news_wrap .news_txt strong {font-size: 22px;}
+
+  #footer {font-size: 16px;}
+  #footer .footer_content ul {margin-bottom: 40px;font-size: 20px;}
+  #footer .footer_content ul~* {line-height: 24px;}
+  #footer .container {position: relative;}
+  #footer .fam_site_area {position: absolute;right: 0;bottom: 0;width: 30%;}
 }
 /* Mobile */
 @media all and (max-width:720px) {
@@ -275,7 +334,7 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
   .quick_wrap li:nth-child(3) a:before {background-position: 0 -120px;}
   .quick_wrap li:nth-child(4) a:before {background-position: 0 -180px;}
 
-  .business_wrap, .news_wrap {padding-top: 32px;}
+  .business_wrap {padding-top: 32px;}
   .business_wrap img {opacity: 0;}
   .business_wrap h2, .manage_wrap h2 {font-size: 36px;}
   .business_wrap h2 span, .manage_wrap h2 span {font-size: 14px;}
@@ -299,8 +358,8 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
   .manage_wrap .slide h3 {font-size: 30px;}
   .manage_wrap .slick-dots {bottom: 40px;}
 
-  .recruit_wrap {padding-top: 144.44444444%;background-image: url(../img/m_incruit_bg.jpg);background-repeat: no-repeat;background-size: cover;background-position: left top;}
-  .recruit strong {font-size: 34px;}
-  .recruit p {font-size: 20px;}
+  .recruit_wrap {padding-top: 150%;background-image: url(../img/m_incruit_bg.jpg);background-repeat: no-repeat;background-size: cover;background-position: left top;}
+  .recruit strong {margin-bottom: 80px;font-size: 34px;}
+  .recruit p {display: none;}
   .recruit h3 span {font-size: 20px;line-height: 20px;}
 }
