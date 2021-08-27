@@ -19,62 +19,72 @@
     <header id="header">
       <div class="container clearfix">
         <h1 title="GS홈페이지에 오신 것을 환영합니다."><a href="#"><img src="img/gs_logo_off.svg" alt="GS그룹"></a></h1>
-        <nav>
-          <span class="mo_gnb_gsLogo"><a href="#"></a></span>
-          <button class="mo_gnb_close"><span>대메뉴 닫기</span></button>          
-          <ul id="gnb" class="clearfix">
-            <li>
-              <a href="#"><b>GS</b> 소개</a>
-              <ul class="depth_2">
-                <li><a href="#">회사소개</a></li>
-                <li><a href="#">경영이념 및 비전</a></li>
-                <li><a href="#">연혁</a></li>
-                <li><a href="#">사업부문</a></li>
-                <li><a href="#">계열사</a></li>
-                <li><a href="#">회장 허태수</a></li>
+        <div class="mo_gnb_bg">
+          <nav>
+            <div class="mo_gnb_head clearfix">
+              <img src="img/gs_logo_on.svg" alt="gs로고" class="mo_gnb_gsLogo">
+              <button class="mo_gnb_close"><span class="blind">대메뉴 닫기</span></button>
+            </div>
+            <ul id="gnb" class="clearfix">
+              <li>
+                <a href="#"><b>GS</b> 소개</a>
+                <ul class="depth_2">
+                  <li><a href="#">회사소개</a></li>
+                  <li><a href="#">경영이념 및 비전</a></li>
+                  <li><a href="#">연혁</a></li>
+                  <li><a href="#">사업부문</a></li>
+                  <li><a href="#">계열사</a></li>
+                  <li><a href="#">회장 허태수</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">지속가능경영</a>
+                <ul class="depth_2">
+                  <li><a href="#">고객성장</a></li>
+                  <li><a href="#">윤리경영</a></li>
+                  <li><a href="#">동반성장</a></li>
+                  <li><a href="#">사회공헌</a></li>
+                  <li><a href="#">환경경영</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><b>GS</b> 소식</a>
+                <ul class="depth_2">
+                  <li><a href="#"><b>GS</b> 뉴스</a></li>
+                  <li><a href="#">광고, 홍보영상</a></li>
+                  <li><a href="#">계열사 소식</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">투자정보</a>
+                <ul class="depth_2">
+                  <li><a href="#"><b>IR</b> 정보</a></li>
+                  <li><a href="#">주가정보</a></li>
+                  <li><a href="#">재무정보</a></li>
+                  <li><a href="#">공시정보</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">인재채용</a>
+                <ul class="depth_2">
+                  <li><a href="#">계열사 채용정보</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="lang_area">
+              <span class="blind">언어선택</span>
+              <ul>
+                <li><a href="#">kor</a></li>
+                <li><a href="#">eng</a></li>
               </ul>
-            </li>
-            <li>
-              <a href="#">지속가능경영</a>
-              <ul class="depth_2">
-                <li><a href="#">고객성장</a></li>
-                <li><a href="#">윤리경영</a></li>
-                <li><a href="#">동반성장</a></li>
-                <li><a href="#">사회공헌</a></li>
-                <li><a href="#">환경경영</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#"><b>GS</b> 소식</a>
-              <ul class="depth_2">
-                <li><a href="#"><b>GS</b> 뉴스</a></li>
-                <li><a href="#">광고, 홍보영상</a></li>
-                <li><a href="#">계열사 소식</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">투자정보</a>
-              <ul class="depth_2">
-                <li><a href="#"><b>IR</b> 정보</a></li>
-                <li><a href="#">주가정보</a></li>
-                <li><a href="#">재무정보</a></li>
-                <li><a href="#">공시정보</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">인재채용</a>
-              <ul class="depth_2">
-                <li><a href="#">계열사 채용정보</a></li>
-              </ul>
-            </li>
-          </ul>
-          <div class="gnb_bg"></div>
-          <!-- <span class="gnb_on"></span> -->
-          <ul class="mo_lang">
-            <li><a href="#">kor</a></li>
-            <li><a href="#">eng</a></li>
-          </ul>
-        </nav>
+            </div>
+            <div class="gnb_bg"></div>
+            <!-- <ul class="mo_lang">
+              <li><a href="#">kor</a></li>
+              <li><a href="#">eng</a></li>
+            </ul> -->
+          </nav>
+        </div>
         <div class="search_wrap">
           <form action="search" method="GET">
             <input type="search" placeholder="검색어를 입력하세요.">
@@ -83,13 +93,6 @@
         </div><!-- //search_wrap -->
         <div class="util clearfix">
           <button class="mo_gnb_btn"><span class="top"></span><span class="mid"></span><span class="btm"></span></button>
-          <div class="pc_lang_area">
-            <span class="blind">언어선택</span>
-            <ul>
-              <li><a href="#">kor</a></li>
-              <li><a href="#">eng</a></li>
-            </ul>
-          </div>
           <button class="search_btn"><span class="blind">검색창 열기</span></button>
         </div><!-- //util -->        
       </div><!-- //container -->
@@ -247,34 +250,34 @@
             <li>
               <a href="#" class="news_on">
                 <span class="news_date"><b>04.08</b><i>2021</i></span>
-                <span class="news_txt">
+                <p class="news_txt">
                   <strong>GS, 친환경 바이오 스타트업과 함께 미래성장 추구</strong>
-                  <i>㈜GS(대표이사 홍순기 사장, 사진)가 친환경 바이오 스타트업과 함께 미래 성장의 기반을 마련한다.</i>
+                  <span>㈜GS(대표이사 홍순기 사장, 사진)가 친환경 바이오 스타트업과 함께 미래 성장의 기반을 마련한다.</span>
                   <b>자세히보기</b>
-                </span>
-                <span class="news_img"><img src="img/transparent.png" alt=""></span>
+                </p>
+                <img src="img/news_01.png" alt="">
                 <span class="news_chevron"></span>
               </a>
             </li>
             <li>
               <a href="#">
                 <span class="news_date"><b>03.30</b><i>2021</i></span>              
-                <span class="news_txt">
+                <p class="news_txt">
                   <strong>㈜GS, 제  1회 ESG위원회 개최, ESG경영 본격화</strong>
-                  <i>㈜GS(대표이사 홍순기 사장, 사진)는 29일 오전 서울 논현로 GS타워에서 제1회 ESG위원회를 개최했다.</i>
+                  <span>㈜GS(대표이사 홍순기 사장, 사진)는 29일 오전 서울 논현로 GS타워에서 제1회 ESG위원회를 개최했다.</span>
                   <b>자세히보기</b>
-                </span>
+                </p>
                 <span class="news_chevron"></span>
               </a>
             </li>
             <li>
               <a href="#">
                 <span class="news_date"><b>02.25</b><i>2021</i></span>              
-                <span class="news_txt">
+                <p class="news_txt">
                   <strong>GS, 친환경협의체 출범으로 ESG경영 강화</strong>
-                  <i>GS그룹(대표 : 허태수 회장)이 친환경협의체를 출범시키며 ESG경영을 본격 추진한다.</i>
+                  <span>GS그룹(대표 : 허태수 회장)이 친환경협의체를 출범시키며 ESG경영을 본격 추진한다.</span>
                   <b>자세히보기</b>
-                </span>
+                </p>
                 <span class="news_img"><img src="img/gs_news_03.png" alt=""></span>
                 <span class="news_chevron"></span>
               </a>
