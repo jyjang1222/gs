@@ -64,8 +64,10 @@ $(function() {
       $('#header').find('img').attr('src', 'img/gs_logo_on.svg')
     }
     else {
-      $('#header').find('img').attr('src', 'img/gs_logo_off.svg')
-      $('#header').removeClass('header_on')
+      if(w < 1197) {
+        $('#header').find('img').attr('src', 'img/gs_logo_off.svg')
+        $('#header').removeClass('header_on')
+      }
     }
   }) //검색
 
