@@ -55,11 +55,11 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
 #header .mo_nav_on .lang_area li:first-child {padding-right: 16px;color: #099;}
 #header .mo_nav_on .lang_area li:first-child:after {content:'';display: inline-block;width: 1px;height: 10px;margin-left: 14px;background: #CCC;}
 
-.mo_nav_chevron {display: block;position: absolute;top: 50%;right: 18px;transform:translateY(-50%);width: 18px;height: 10px;background-image:url(../img/sprite.png);background-position: -200px -240px;}
-.mo_nav_chevron_on {background-position: -200px -260px;}
+.mo_nav_chevron {display: block;position: absolute;top: 50%;right: 18px;transform:translateY(-50%);width: 14px;height: 8px;background-image:url(../img/sprite.png);background-position: -200px -240px;}
+.mo_nav_chevron_on {background-position: -200px -258px;}
 
 /* 검색창 */
-.search_wrap {position: absolute;left: 0;right: 0;border-top: 1px solid #CCC;background: #FFF;}
+.search_wrap {position: absolute;left: 0;right: 0;border-top: 1px solid #dedede;background: #FFF;}
 .search_wrap form {display: flex;justify-content:space-between;align-items:center;margin: 0 auto;}
 .search_wrap input {border: none;background: none;}
 .search_wrap input[type=search] {width: 100%;}
@@ -136,7 +136,7 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
 .recruit p, .recruit strong {text-shadow: 0 1px 8px #000;color: #FFF;}
 .recruit strong {display: block;margin-bottom: 20px;font-size: 34px;}
 .recruit p {font-size: 20px;margin-bottom: 50px;}
-.recruit .recruit_area {position: relative;box-sizing:border-box;padding-top: 60%;border: 3px solid #099;background: #FFF;}
+.recruit .recruit_area {position: relative;box-sizing:border-box;padding-top: 60%;border: 2px solid #099;background: #FFF;}
 .recruit .recruit_area h3 {position: absolute;left: -3%;top: -11%;width: 180px;height: 50px;background: #099;color: #FFF;}
 .recruit .recruit_area h3 span {position: absolute;left: 50%;top: 50%;transform:translate(-50%, -50%);white-space: nowrap;font-size: 20px;line-height: 20px;}
 .recruit .recruit_area ul {display: flex;flex-flow:row wrap;align-content: space-around;position: absolute;top: 14%;bottom: 14%;left: 0;right: 0;}
@@ -335,7 +335,7 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
   .search_wrap form {width: 94%;height: 94px;}
   .search_wrap input[type=search] {height: 40px;font-size: 22px;}
   .search_wrap input[type=search]::placeholder {font-size: 22px;}
-  .search_wrap input[type=submit] {width: 20px;height: 18px;background-position: -240px -370px;}
+  .search_wrap input[type=submit] {width: 20px;height: 17px;background-position: -240px -370px;}
 
   .main_visual {padding-top: 80%;}
   .main_visual video {width: auto;height: 100%;}
