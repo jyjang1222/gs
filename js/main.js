@@ -177,6 +177,15 @@ $(function() {
     }
   }) //뉴스 마우스호버
 
+  $('.fam_site_area').click(function() {
+    $('.fam_site').toggleClass('fam_site_on')
+    $('.fam_icon').toggleClass('fam_icon_on')
+  })
+  $('.fam_site').mouseleave(function() {
+    $(this).toggleClass('fam_site_on')
+    $('.fam_icon').toggleClass('fam_icon_on')
+  })
+  
   $('.manage_slider').slick({
     slidesToShow : 3,
     slidesToScroll : 1,
