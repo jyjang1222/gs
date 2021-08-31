@@ -444,11 +444,6 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
   .business_wrap .busi_fam li {width: 50%;}
   .business_wrap .busi_fam li a {position: relative;padding-top: 36%;}/*30.95975232%*/
   .business_wrap .busi_fam li span {display: inline-block;line-height: 20px;position: absolute;left: 50%;top: 50%;transform:translate(-50%, -50%);font-size: 18px;white-space: nowrap}
-  
-  .business_wrap .busi_fam li span:before {content:'';display: block;position: absolute;left: -12%;top: 50%;transform:translateY(-75%);width: 4px;height: 4px;background-color: #f36422;}
-  .business_wrap .business>li:nth-child(1) .busi_fam li span:before {background-color: #f36422;}
-  .business_wrap .business>li:nth-child(2) .busi_fam li span:before {background-color: #0072bc;}
-  .business_wrap .business>li:nth-child(3) .busi_fam li span:before {background-color: #85c440;}
 
   .manage_wrap {padding-bottom: 70px;}
   .manage_wrap .slide a {padding: 0;}
