@@ -47,7 +47,7 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
 #header .mo_nav_on .mo_gnb_gsLogo {display: block;float: left;width: 56px;height: 30px;}
 #header .mo_nav_on .mo_gnb_close {display: block;float: right;width: 16px;height: 16px;margin-top: 8px;background-image: url(../img/sprite.png);background-position: -120px -220px;background-size: 150px 300px;}
 #header .mo_nav_on #gnb>li>a {position: relative;line-height: 50px;padding: 0 18px;font-size: 18px;}
-#header .mo_nav_on .depth_2 {padding:10px 0 10px 32px;background: #EEE;font-size: 16px;}
+#header .mo_nav_on .depth_2 {height: auto;padding:10px 0 10px 32px;background: #EEE;font-size: 16px;}
 #header .mo_nav_on .depth_2 a {line-height: 40px;}
 #header .mo_nav_on .lang_area {padding-left: 18px;}
 #header .mo_nav_on .lang_area li {float: left;padding: 16px 0;}
