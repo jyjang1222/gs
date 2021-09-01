@@ -22,7 +22,6 @@ $(function() {
       $('.mo_gnb_bg').hide()
       $('#gnb>li>a').children('span').removeClass('mo_nav_chevron_on')
       $('.news_wrap .news_txt strong').nextAll().hide()
-      $('#header .mo_nav_on .depth_2').css('height', 'auto')
     }
   }) // 창크기 변경후 스타일 리셋
 
