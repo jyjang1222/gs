@@ -200,7 +200,7 @@ img[src*=transparent] {display: block;width: 0;height: 0;font-size: 0;opacity: 0
   #gnb>li:hover:after {left: 0;right: 0;}
   #gnb>li:hover {color: #099;}
 
-  #header .depth_2 {position: absolute;height: 269px !important;z-index: 99;padding-top: 18px !important;text-align: left;color: #000;}
+  #header .depth_2 {position: absolute;height: 269px;z-index: 99;padding-top: 18px;text-align: left;color: #000;}
   #header .depth_2 li a {width: 160px;line-height: 42px;text-indent: 25px;}
   #header .depth_2 li a:hover {color: #099;}
 
